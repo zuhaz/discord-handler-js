@@ -1,0 +1,14 @@
+{
+  "name": "learning-bot",
+  "version": "1.0.0",
+  "description": "A bot who has been made by zuhaz",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Zuhaz",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.10.2"
+  }
+}
