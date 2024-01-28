@@ -1,4 +1,5 @@
 {
-  "token": "YOUR_BOT_TOKEN_HERE",
-  "MongoDBConnect": "YOUR_MONGODB_CONNECTION_KEY_HERE"
+  "token": "ENTER_YOUR_TOKEN_HERE",
+  "mongoKey": "ENTER_YOUR_MONGO_KEY_HERE",
+  "botactivity": "ENTER_YOUR_BOT_ACTIVITY_STATUS_HERE"
 }

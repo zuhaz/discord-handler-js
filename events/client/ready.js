@@ -1,6 +1,6 @@
-const { Events } = require("discord.js");
+const { Events, ActivityType } = require("discord.js");
 const { commandHandler } = require("../../commandHandler");
-
+const config=  require('../../config.json')
 module.exports = {
   name: "ready",
   once: true,
@@ -13,5 +13,9 @@ module.exports = {
       .catch(() => {
         console.log("Couldn't load and register commands");
       });
+    client.user.setActivity({
+      name: config.botactivity,
+      type: ActivityType.Watching,
+    });
   },
 };
