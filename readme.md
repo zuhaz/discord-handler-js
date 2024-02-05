@@ -42,6 +42,7 @@ cd discord-handler-js
 ```
 ### Install dependencies:
 1. Install the required dependencies needed for the bot to function and get to working.
+    
     ```bash
     npm install
     ```
@@ -56,7 +57,8 @@ cd discord-handler-js
 ### Running the bot:
 After completing all the prequisities, follow these steps to get your bot running.
 
-- Run this command in the terminal 
+1. Run this command in the terminal 
+
     ```bash
     node .
     ```
